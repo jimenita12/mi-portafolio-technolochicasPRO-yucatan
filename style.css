@@ -1,0 +1,13 @@
+.boton{
+    width: 150px;
+    background-color: rgb(3, 92, 194) !important;
+    border-color: rgb(3, 92, 194) !important;
+}
+
+.card {
+    background-color: rgb(177, 177, 177) !important;
+}
+
+.logo{
+    width: 35px;
+}

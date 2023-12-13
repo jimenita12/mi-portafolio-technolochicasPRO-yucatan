@@ -9,6 +9,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <!-- Bootstrap CSS (desde CDN) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +29,7 @@
     <section id="sobre-mi" class="px-4 my-5 text-center border-bottom">
       <img class="d-block mx-auto mb-4 rounded-2" src="assets/mi foto.jpeg" alt="" width="200">
       <h1 id="titulo" class="display-4 fw-bold text-body-emphasis">Jimena Soberanis</h1>
-      <h5 class="fw-bold text-body-emphasis">Estudiante de Desarrollo de Software! Trabajadora y dedicada a estudiar y
+      <h5 class="fw-bold text-body-emphasis">Estudiante de Desarrollo de Software! Trabajadora, dedicada a estudiar y
         aprender ♥</h5>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Con mucho esfuerzo he llegado a finalizar mi cuarto cuatrimeste de universidad</p>
@@ -74,8 +77,7 @@
 
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-1.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google</h3>
               <ul class="d-flex list-unstyled mt-auto">
@@ -96,14 +98,18 @@
                   <small>3d</small>
                 </li>
               </ul>
-              <a href="#" class="btn btn-primary">Acceder</a>
+              <div class="d-flex align-items-center justify-content-center">
+                <a href="https://joyful-kitsune-3603e8.netlify.app" class="boton btn btn-primary">Acceder</a>
+                <a href="https://github.com/jimenita12/google-clon.git" class="ml-2">
+                  <img src="assets/github.png" height="40px" alt="Ejemplo de Imagen">
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-2.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Este portafolio</h3>
               <ul class="d-flex list-unstyled mt-auto">
@@ -124,14 +130,18 @@
                   <small>4d</small>
                 </li>
               </ul>
-              <a href="#" class="btn btn-primary">Acceder</a>
+              <div class="d-flex align-items-center justify-content-center">
+                <a href="https://euphonious-crisp-448fa1.netlify.app" class="boton btn btn-primary mr-2">Acceder</a>
+                <a href="https://github.com/jimenita12/mi-portafolio-technolochicasPRO-yucatan.git" class="ml-2">
+                  <img src="assets/github.png" height="40px" alt="Ejemplo de Imagen">
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-3.jpg');">
+          <div class="card card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi página de hoobies</h3>
               <ul class="d-flex list-unstyled mt-auto">
@@ -152,31 +162,38 @@
                   <small>5d</small>
                 </li>
               </ul>
-              <a href="#" class="btn btn-primary">Acceder</a>
+              <div class="d-flex align-items-center justify-content-center">
+                <a href="#" class="boton btn btn-primary">Acceder</a>
+                <a href="https://www.ejemplo.com" class="ml-2">
+                  <img src="assets/github.png" height="40px" alt="Ejemplo de Imagen">
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="testimonios" class="carousel slide mb-6" data-bs-ride="carousel">
+    <section id="testimonios" class="carousel slide" data-bs-ride="carousel">
+      <h2 class="pb-2 border-bottom text-center mb-4">Testimonios</h2>
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+        <button type="button" data-bs-target="#testimonios" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonios" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#testimonios" data-bs-slide-to="2" aria-label="Slide 3" class="active"
           aria-current="true"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item">
           <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
             <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
           </svg>
           <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <div id="testimonios-texto" class="carousel-caption">
+              <h4>María González - Desarrolladora Web Junior:</h4>
+              <p class="opacity-75">Trabajar con Jimena ha sido una experiencia increíble. Su dedicación y rapidez para
+                aprender son admirables. No solo es un desarrolladora web con habilidades técnicas sólidas, sino que
+                también demuestra una ética laboral excepcional.</p>
             </div>
           </div>
         </div>
@@ -187,31 +204,32 @@
           </svg>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              <h4>Juan Martínez - Coordinador de Proyectos Digitales:.</h4>
+              <p>Hemos tenido el placer de contar con Jimena en nuestro equipo de desarrollo de software. Su
+                responsabilidad y habilidad para aprender rápidamente han sido fundamentales para el éxito de nuestros
+                proyectos.</p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item active">
           <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
             <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
           </svg>
           <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <div class="carousel-caption">
+              <h4>Laura Rodríguez - Diseñadora de Experiencia de Usuario (UX):</h4>
+              <p>Jimena es un colaboradora excepcional que he tenido el placer de tener en mi equipo. Su capacidad para
+                trabajar en colaboración y su dedicación para perfeccionar cada detalle son impresionantes.</p>
             </div>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -219,15 +237,20 @@
 
     <section id="contacto" class="bg-dark text-secondary px-4 py-5 text-center">
       <div class="py-5">
-        <h1 class="display-5 fw-bold text-white">Dark color hero</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="fs-5 mb-4">Espero que esta páginaa haya sido de tu agrado, ¡muchas gracias por estar aquí!</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-            <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-          </div>
+          <h4 class="">Espero que esta página haya sido de tu agrado, ¡muchas gracias por estar aquí!</h4>
         </div>
       </div>
+
+      <div class="col-lg-6 mx-auto">
+        <h2 class="text-white">¡Contáctame!</h2>
+        <p class="text-white">Si tienes preguntas o comentarios, no dudes en ponerte en contacto conmigo.</p>
+
+        <!-- Agrega tu correo electrónico y enlace de LinkedIn aquí -->
+        <p class="text-white">Correo Electrónico: <a href="mailto:jimenasoberanis.acosta@gmail.com">jimenasoberanis.acosta@gmail.com</a></p>
+        <p class="text-white">LinkedIn: <a href="linkedin.com/in/jimena-soberanis-297635294" target="_blank">Jimena Soberanis</a></p>
+      </div>
+
     </section>
   </main>
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -241,15 +264,15 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#twitter"></use>
-          </svg></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#instagram"></use>
-          </svg></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#facebook"></use>
-          </svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#">
+          <img src="assets/x.png" alt="x enlace" class="logo">
+        </a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#">
+          <img src="assets/facebook.png" alt="facebook enlace" class="logo">
+        </a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#">
+          <img src="assets/insta.png" alt="instagram enlace" class="logo">
+        </a></li>
     </ul>
   </footer>
   <!-- link del JS Boostrap -->

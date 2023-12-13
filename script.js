@@ -40,7 +40,7 @@ objetoDeLabibliotecaTypewriter
     .typeString('Jimena Soberanis')
     .deleteChars(17)
     .pauseFor(500)
-    .typeString('Desarrollo web')
+    .typeString('Desarrollo web frontend')
     .pauseFor(2500)
     .deleteChars(14)
     .start();
